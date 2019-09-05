@@ -3,6 +3,6 @@ module.exports = {
   output: {
     file: 'dist/bundle.js',
     format: 'cjs',
-    sourceMap: 'inline',
-  }
+  },
+  external: ['path', 'crx3']
 };

@@ -1,7 +1,5 @@
-const fs = require('fs');
-const path = require('path');
-const join = path.join;
-const crx3 = require('crx3');
+import path, { join } from 'path';
+import crx3 from 'crx3';
 
 class Plugin {
   constructor(options) {
@@ -51,4 +49,5 @@ class Plugin {
       .catch(console.error)
   }
 }
-module.exports = Plugin;
+
+export default Plugin;

@@ -6,5 +6,10 @@
   "repository": "https://github.com/garrettlr/crx3-webpack-plugin.git",
   "author": "Garrett Levy <Garrett@getservice.com>",
   "license": "MIT",
-  "dependencies": {}
+  "engines": {
+    "node": ">=11.0.0"
+  },
+  "dependencies": {
+    "crx3": "^1.0.1"
+  }
 }

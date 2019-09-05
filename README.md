@@ -3,6 +3,7 @@ a webpack plugin to bundle chrome extensions for CRX3
 
 ## Inspired or enabled by the following projects:
 [crx-webpack-plugin](https://github.com/johnagan/crx-webpack-plugin)
+
 [crx3](https://github.com/ahwayakchih/crx3)
 
 ## API

@@ -420,9 +420,9 @@ create-hmac@^1.1.0, create-hmac@^1.1.2, create-hmac@^1.1.4:
     safe-buffer "^5.0.1"
     sha.js "^2.4.8"
 
-crx3@^1.0.1:
+"crx3@https://github.com/garrettlr/crx3#db91dc9a3f2e669afd554a7f24fcb0dcc2c9c21e":
   version "1.0.1"
-  resolved "https://registry.yarnpkg.com/crx3/-/crx3-1.0.1.tgz#638a515046e16424ac4bbd0ba81e2beab7cfbf72"
+  resolved "https://github.com/garrettlr/crx3#db91dc9a3f2e669afd554a7f24fcb0dcc2c9c21e"
   dependencies:
     mri "^1.1.4"
     pbf "^3.2.0"

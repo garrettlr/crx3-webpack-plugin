@@ -1,0 +1,9 @@
+{
+  "name": "crx3-webpack-plugin",
+  "version": "1.0.0",
+  "description": "a webpack plugin for crx3",
+  "main": "index.js",
+  "repository": "https://github.com/garrettlr/crx3-webpack-plugin.git",
+  "author": "Garrett Levy <Garrett@getservice.com>",
+  "license": "MIT"
+}

@@ -2,14 +2,24 @@
   "name": "crx3-webpack-plugin",
   "version": "1.0.0",
   "description": "a webpack plugin for crx3",
-  "main": "index.js",
+  "main": "bundle.js",
   "repository": "https://github.com/garrettlr/crx3-webpack-plugin.git",
   "author": "Garrett Levy <Garrett@getservice.com>",
   "license": "MIT",
   "engines": {
     "node": ">=11.0.0"
   },
+  "scripts": {
+    "build": "NODE_ENV=production node node_modules/rollup --config"
+  },
   "dependencies": {
     "crx3": "^1.0.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.20.3",
+    "webpack": "4.2.0"
+  },
+  "peerDependencies": {
+    "webpack": "^4.2.0"
   }
 }

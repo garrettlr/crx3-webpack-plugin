@@ -15,14 +15,24 @@ const crx3 = require('crx3-webpack-plugin');
 
 configure the plugin:
 ```
-new crx3({
-  updateUrl: 'http://extensions.getservice.com/',
-  updateFilename: 'annotator.xml',
-  keyFile: '../build.pem',
-  contentPath: '../build',
-  outputPath: '../dist',
-  name: 'Annotator',
-})
+// webpack.config.js
+
+module.exports = {
+  entry: //...,
+  output: //...,
+  plugins: [
+    new crx3({
+      updateUrl: 'url-to-update.xml',
+      updateFilename: 'update.xml',
+      keyFile: './build.pem',
+      contentPath: './build',
+      outputPath: './dist',
+      name: 'my-extension.crx',
+   })
+  ]
+}
 ```
+
+
 
 

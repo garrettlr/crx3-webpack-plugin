@@ -1,7 +1,7 @@
 {
   "name": "crx3-webpack-plugin",
   "type": "module",
-  "version": "1.0.21",
+  "version": "1.0.22",
   "description": "a webpack plugin for crx3",
   "main": "dist/bundle.js",
   "repository": "https://github.com/garrettlr/crx3-webpack-plugin.git",

@@ -1,7 +1,7 @@
 {
   "name": "crx3-webpack-plugin",
   "type": "module",
-  "version": "1.0.22",
+  "version": "1.0.23",
   "description": "a webpack plugin for crx3",
   "main": "dist/bundle.js",
   "repository": "https://github.com/garrettlr/crx3-webpack-plugin.git",
@@ -13,7 +13,8 @@
     "chrome extension 3",
     "manifest 3",
     "chrome extension webpack plugin",
-    "crx3"
+    "crx3",
+    "crx3-webpack-plugin"
   ],
   "engines": {
     "node": ">=11.0.0"
@@ -27,9 +28,9 @@
   },
   "devDependencies": {
     "rollup": "^1.20.3",
-    "webpack": "4.2.0"
+    "webpack": "^4.39.0"
   },
   "peerDependencies": {
-    "webpack": "^4.2.0"
+    "webpack": "^4.39.0"
   }
 }
